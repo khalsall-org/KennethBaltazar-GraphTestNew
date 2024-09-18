@@ -30,7 +30,7 @@ type Order @key(fields: "id") {
   """
 The total cost of the order
 """
-Total: Float
+total: Float
 """
 The date the oder was made
 """
