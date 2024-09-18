@@ -6,6 +6,7 @@ extend schema
       "@external",
       "@tag",
       "@shareable"
+      "@override"
     ]
   )
 
