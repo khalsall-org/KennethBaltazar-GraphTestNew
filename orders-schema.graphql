@@ -5,6 +5,7 @@ extend schema
       "@tag",
       "@shareable",
       "@authenticated"
+      "@requiresScopes",
     ]
   )
 
