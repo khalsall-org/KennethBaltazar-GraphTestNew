@@ -28,6 +28,16 @@ type Order @key(fields: "id") {
   """
   The user who made the purchase
   """
+
+"""
+The total cost of the order
+"""
+orderTotal: Float
+
+"""
+The date the oder was made
+"""
+orderDate: String
   buyer: User! 
 
   """
